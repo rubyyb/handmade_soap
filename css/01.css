@@ -1,0 +1,270 @@
+@charset "utf-8";
+
+/*영어 필기체*/
+@font-face {
+    font-family: 'JSArirang-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/JSArirang-RegularA1.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/*메인 영어 제목*/
+@font-face {
+    font-family: 'TheJamsil5Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/TheJamsil5Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+/*한글 글씨체*/
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main {
+    font-family: 'Pretendard-Regular';
+    width: 564px;
+    height: 2886px;
+    margin: 50px auto;
+    color: #333;
+}
+.main .section01 {
+    width: 100%;
+    /*height: 722px;*/
+    padding: 39px 68px 0 68px;
+    text-align: left;
+    background-color: #e4ded2;
+}
+.main .section01 h1{
+    font-family: 'JSArirang-Regular';
+    font-size: 54px;
+    color: #b6b2b2;
+}
+.main .section01 strong {
+    font-family: 'TheJamsil5Bold';
+    font-size: 100px;
+    color: #52784f;
+    letter-spacing: -8px;
+}
+.main .section01 p {
+    margin-top: 20px;
+    font-size: 23px;
+    letter-spacing: -2px;
+}
+.main .section01 figure {
+    width: 492px;
+}
+.main .section01 figure img {
+    width: 400px;
+    object-fit: cover;
+
+}
+
+/*😋😊천연비누란?😋😊*/
+.main .section02 {
+    width: 100%;
+    background: url(../img/천연비누\ 상세페이지\ 2\(배경\).jpg) center center / cover;
+    padding: 45px 46px;
+    text-align: center;
+}
+.main .section02 .soap {
+    padding: 44px 45px 0;
+    background-color: #fff;
+    position: relative;
+}
+.main .section02 .soap h2 {
+    font-family: 'JSArirang-Regular';
+    font-size: 30px;
+    margin-bottom: 28px;
+}
+.main .section02 .soap h3 {
+    font-size: 25px;
+    margin-bottom: 23px;
+}
+.main .section02 .soap p { 
+    font-size: 15px;
+    letter-spacing: -1px;
+    margin-bottom: 30px;
+}
+.main .section02 .soap .into {
+    display: flex;
+    justify-content:space-between;
+    padding: 30px 24px;    
+    border-top: 1px solid #333;
+    background-color: #fff;
+}
+.main .section02 .soap .into .into01 h4 {
+    text-align: center;
+    font-size: 15px;
+    letter-spacing: -1px;
+}
+.main .section02 .soap .into .into01 figure {
+    width: 89px;
+    height: 89px;
+    background-color: #90a790;
+    border-radius: 45px;
+    margin-top: 19px;
+}
+.main .section02 .soap .into .into01 figure img {
+    width: 35px;
+    height: 38px;
+    margin: 25px;
+
+}
+.main .section02 .soap .into .into02 figure {
+    width: 89px;
+    height: 89px;
+    background-color: #abbc88;
+    border-radius: 45px;
+    margin-top: 19px;
+}
+.main .section02 .soap .into .into02 figure img {
+    width: 35px;
+    height: 38px;
+    margin: 25px;
+}
+.main .section02 .soap .into .into03 figure {
+    width: 89px;
+    height: 89px;
+    background-color: #c4c688;
+    border-radius: 45px;
+    margin-top: 19px;
+}
+.main .section02 .soap .into .into03 figure img {
+    width: 35px;
+    height: 38px;
+    margin: 20px;
+}
+.main .section02 .soap_img {
+    width: 382px;
+}
+.main .section02 .soap_img figure {
+    width: 382px;
+    height: 218px;
+    margin-top: -20px;
+}
+.main .section02 .soap_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/*😆😅section03😆😅*/
+.section03 {
+    padding: 50px 46px 0 46px;
+    text-align: center;
+    background-color: #f7f7f7;
+}
+.section03 > p {
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+.section03 > span {
+    font-size: 30px;
+    font-weight: bolder;
+}
+.section03 h5 {
+    margin: 15px 0 87px;
+    padding: 6px;
+    font-size: 16px;
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+}
+.section03 .box {
+    width: 158px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+.section03 .box .box_list figure {
+    width: 158px;
+    height: 144px;
+}
+.section03 .box .box_list figure img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.section03 .box .box_list .text {
+    background-color: #fff;
+    font-size: 13px;
+    padding: 31px 16px;
+}
+.section03 .box .box_list .text figure {
+    width: 17px;
+    height: 17px;
+}
+.section03 .box .box_list .text figure img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    text-align: center;
+}
+.section03 .box .box_list .text p {
+    margin-top: 22px;
+}
+.section03 .last {
+    width: 100%;
+    height: 151px;
+    background: url('../img/천연비누\ 3번\ .jpg') center center / cover;
+    color: #fff;
+    padding: 45px 0 50px;
+}
+.section03 .last h6 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.section03 .last h7 {
+    font-size: 16px;
+}
+
+
+/*😆😅section04😆😅*/
+.section04 {
+    background-color: #f7f7f7;
+    padding: 0 46px;
+    text-align: center;
+}
+.section04 .list {
+    width: 477px;
+    height: 244px;
+    display: flex;
+    justify-content: space-between;
+    padding: 22px 34px;
+}
+.section04 .list figure {
+    width: 200px;
+    height: 200px;
+}
+.section04 .list figure img {
+    width: 100%;
+    height: 100%;
+    object-fit: center;
+}
+.section04 .list .text {
+    padding-top: 20px;
+}
+.section04 .list .text p {
+    font-size: 18px;
+}
+.section04 .list .text h1 {
+    font-size: 23px;
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
+.section04 .list .text h8 {
+    font-size: 13px;
+    letter-spacing: -1px;
+    line-height: 1;
+}
+.section04 .list:nth-child(1) figure {
+    width: 187px;
+}
